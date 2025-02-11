@@ -9,12 +9,17 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 
 public class CartItem {
-    private String produdctId;
-    private Integer quantity; 
+    private String productId;
+    private String name;
+    private String description;
     private Double price;
+    private String category;
+    private Integer quantity;
 
     public Double getSubtotal(){
         return quantity * price;
     }
     
 }
+
+

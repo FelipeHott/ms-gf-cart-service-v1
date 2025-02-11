@@ -70,7 +70,31 @@
 			<artifactId>spring-kafka-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+	
+   <dependency>
+     <groupId>com.liferay.commerce</groupId>
+     <artifactId>com.liferay.headless.commerce.delivery.cart.impl</artifactId>
+     <version>4.0.113</version>
+   </dependency>
+ 
+   <dependency>
+     <groupId>org.osgi.enroute.examples.microservice</groupId>
+     <artifactId>dao-impl-jpa</artifactId>
+     <version>0.0.1</version>
+   </dependency>
+   
+   <dependency>
+    <groupId>org.springframework.kafka</groupId>
+    <artifactId>spring-kafka</artifactId>
+    <version>3.0.4</version> <!-- ou a versão compatível com seu Spring Boot -->
+   </dependency>
+ 
+   <dependency>
+     <groupId>io.github.apex-dev-tools</groupId>
+     <artifactId>standard-types</artifactId>
+     <version>61.0.0</version>
+   </dependency>
+ </dependencies>
 
 	<build>
 		<plugins>
